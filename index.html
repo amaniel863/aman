@@ -1,1 +1,109 @@
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Amanuel's developer portfolio">
+  <title>Amanuel | Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <canvas id="matrix"></canvas>
+
+  <header class="topbar">
+    <a class="logo" href="#">AMAN<span>DEV</span></a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="themeBtn" aria-label="Toggle theme">☀️</button>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="status"><span class="pulse"></span> AVAILABLE FOR PROJECTS</div>
+      <p class="eyebrow">HELLO, WORLD! I'M</p>
+      <h1>Amanuel <span>Haileslassie</span></h1>
+      <h2>I'm a <span id="typing">Web Developer</span><i>|</i></h2>
+      <p class="intro">
+        I build modern websites, creative digital experiences
+        and useful technology projects.
+      </p>
+      <div class="actions">
+        <a class="primary" href="#projects">Explore Projects ↗</a>
+        <a class="secondary" href="#contact">Contact Me</a>
+      </div>
+      <div class="terminal">
+        <div class="terminal-head"><span>●</span> <span>●</span> <span>●</span> <label>aman@developer:~</label></div>
+        <p><b>aman@dev:~$</b> whoami</p>
+        <p>Web developer | Programmer | Creator</p>
+        <p><b>aman@dev:~$</b> status</p>
+        <p class="green">Building something amazing...</p>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <p class="eyebrow">01 / INTRODUCTION</p>
+      <h2>About <span>Me</span></h2>
+      <p>
+        I'm Amanuel, an aspiring developer passionate about web development,
+        programming, technology and creating digital solutions.
+        I enjoy learning new skills and turning ideas into working projects.
+      </p>
+    </section>
+
+    <section id="skills" class="section">
+      <p class="eyebrow">02 / TECHNOLOGIES</p>
+      <h2>My <span>Skills</span></h2>
+      <div class="cards">
+        <article class="card"><h3>HTML5</h3><p>Web structure</p></article>
+        <article class="card"><h3>CSS3</h3><p>Design and responsive layouts</p></article>
+        <article class="card"><h3>JavaScript</h3><p>Interactive websites</p></article>
+        <article class="card"><h3>GitHub</h3><p>Code and project management</p></article>
+        <article class="card"><h3>PHP / SQL</h3><p>Learning backend development</p></article>
+        <article class="card"><h3>Python</h3><p>Programming and automation</p></article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <p class="eyebrow">03 / MY WORK</p>
+      <h2>Featured <span>Projects</span></h2>
+      <div class="cards">
+        <article class="card project">
+          <span class="tag">SOCIAL MEDIA</span>
+          <h3>Aman Social</h3>
+          <p>A social networking website concept with posts and messaging.</p>
+          <span class="tech">HTML · CSS · JavaScript</span>
+        </article>
+        <article class="card project">
+          <span class="tag">TELEGRAM BOT</span>
+          <h3>Amanchattbot</h3>
+          <p>A Telegram bot project with utilities, games and user features.</p>
+          <span class="tech">Python · Telegram</span>
+        </article>
+        <article class="card project">
+          <span class="tag">CYBER TOOLS</span>
+          <h3>Aman Cyber Tracker</h3>
+          <p>A local information and reporting dashboard project.</p>
+          <span class="tech">Termux · Python</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <p class="eyebrow">04 / GET IN TOUCH</p>
+      <h2>Let's Build <span>Something</span></h2>
+      <p>Have an idea or project? Connect with me on GitHub.</p>
+      <a class="primary" href="https://github.com/" target="_blank" rel="noopener">Visit GitHub ↗</a>
+    </section>
+  </main>
+
+  <footer>© <span id="year"></span> Amanuel. Built with HTML, CSS & JavaScript.</footer>
+</body>
+</html>
